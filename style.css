@@ -314,6 +314,49 @@ p {
 }
 /* End About section */
 
+/* Contact section */
+#contact .contact {
+    flex-direction: column;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#contact .contact-container {
+    width: 300px;
+}
+#contact .contact-container .contact-item {
+    width: 80%;
+    padding: 30px;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 0 18px 0 #0000002c;
+    transition: box-shadow 0.5s ease;
+}
+#contact .contact-container .contact-item:hover {
+    box-shadow: 0 0 5px 0 #0000002c;
+}
+#contact .contact-container .icon {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+#contact .contact-container h2 {
+    font-size: 2.5rem;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+#contact .contact-container h3 {
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 2rem;
+}
+/* End Contact section */
+
 
 
 /* Keyframes */
