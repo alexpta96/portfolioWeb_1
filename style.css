@@ -668,6 +668,27 @@ p {
 
 /* Media Query for desktop */
 @media only screen and (min-width: 1200px) {
+    /* Header */
+    #header .navbar .nav-list .hamburger {
+        display: none;
+    }
+    #header .navbar .nav-list ul {
+        display: block;
+        position: initial;
+        width: fit-content;
+        height: auto;
+        background-color: transparent;
+    }
+    #header .navbar .nav-list ul li{
+        display: inline-block;
+    }
+    #header .navbar .nav-list ul a {
+        font-size: 1.8rem;
+    }
+    #header .navbar .nav-list ul a::after {
+        display: none;
+    }
+    /* End Header */
     /* services section */
     #services .services-bottom .services-item {
         flex-basis: 22%;
